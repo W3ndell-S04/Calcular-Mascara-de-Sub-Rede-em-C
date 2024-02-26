@@ -8,12 +8,12 @@ Este é um programa em C que calcula a máscara de sub-rede com base em um ender
 1- **Compilação:** 
 Compile o programa usando um compilador C compatível (por exemplo, gcc).
 
-    gcc calculadora_subrede.c -o calculadora_subrede
+    gcc calcMask.c -o calc.exe
 
 2 - **Execução:**
 Execute o programa compilado e siga as instruções para fornecer o endereço IP.
 
-    ./calculadora_subrede
+    ./calc.exe
     
 
 
@@ -24,4 +24,12 @@ Execute o programa compilado e siga as instruções para fornecer o endereço IP
 
 
 ## Exemplo de Saída  
-![Imagem da saida do programa](https://drive.google.com/file/d/106du-05zUzTY-NX3yMhSOSouUt_Xu-7A/view?usp=sharing)
+```shell
+Digite o endereco IP: 10.0.0.0
+Classe de IP: A
+Mascara de Sub-rede: 255.0.0.0
+Numero de enderecos IP: 256
+Numero de IPs utilizaveis: 254
+Faixa de enderecos validos para uso em maquinas: 10.0.0 - 10.0.0.255
+CIDR: /8
+```
